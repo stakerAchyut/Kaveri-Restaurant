@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1606323.kaverirestaurant.MainActivity"
+    android:background="@drawable/kaveribackk">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="450dp"
+        android:src="@drawable/kaverilogos"
+        android:id="@+id/logo" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="270dp"
+        android:src="@drawable/kaveriback"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Kaveri Restaurant"
+        android:textColor="#08104e"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casual restaurant serving pan Indian dishes, buffets and thalis."
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#020674"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:-"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#11171e"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                   Shop 9-11, 1st Floor, G.E.L. Church Shopping Complex,Main Road, Mahatma Gandhi Marg, Ranchi, Jharkhand 834001"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#11171e"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours:-"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#11171e"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="              10.00AM --10.30PM"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#11171e"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:-"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#11171e"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="               0651-2330330"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#11171e"
+        android:textSize="18sp" />
+
+</RelativeLayout>
